@@ -35,6 +35,24 @@ python -m examples.reproduce_dissertation_results
 pytest
 ```
 
+## Project Structure
+
+```text
+qec_dissertation_code/
+├── examples/
+│   └── reproduce_dissertation_results.py
+├── notebooks/
+│   └── reproduce_results.ipynb
+├── src/
+│   └── qec.py
+├── tests/
+│   └── test_qec.py
+├── .gitignore
+├── pyproject.toml
+├── README.md
+└── requirements.txt
+```
+
 ## Background
 
 This code supports the quantitative claims in my undergraduate dissertation in Physics at the University of Sheffield (First Class). The method follows the Knill-Laflamme framework for quantum error correction, applied to the permutation-invariant, constant-excitation code family introduced by Y. Ouyang and R. Chao.
